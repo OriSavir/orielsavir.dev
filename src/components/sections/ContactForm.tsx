@@ -58,11 +58,11 @@ const ContactForm = () => {
           info: { error: true, msg: text || 'Something went wrong. Please try again.' }
         });
       }
-    } catch (error) {
+    } catch (_) {
       setStatus({
         submitted: false,
         submitting: false,
-        info: { error: true, msg: 'An error occurred. Please try again later.' }
+        info: { error: true, msg: 'Something went wrong. Please try again.' }
       });
     }
     await delay(5000);

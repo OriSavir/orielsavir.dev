@@ -14,7 +14,7 @@ interface ProjectModalProps {
     useEffect(() => {
       document.body.style.overflow = 'hidden';
       
-      const handleEsc = (e: KeyboardEvent) => {
+      const handleEsc = (_: KeyboardEvent) => {
         onClose();
       };
       window.addEventListener('keydown', handleEsc);

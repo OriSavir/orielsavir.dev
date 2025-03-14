@@ -18,7 +18,7 @@ const ContactSection = () => {
         <h3 className="text-2xl font-bold mb-6 text-[var(--cyber-blue)] neon-blue">Let's Connect</h3>
         
         <p className="text-gray-300 mb-6">
-          I'm always open to discussing new projects, ideas, or opportunities. Feel free to reach out here or through my socials!
+          I&apos;m always open to discussing new projects, ideas, or opportunities. Feel free to reach out here or through my socials!
         </p>
         
         <div className="space-y-4 mb-8">

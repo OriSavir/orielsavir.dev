@@ -1,5 +1,3 @@
-import { Project } from "next/dist/build/swc/types";
-
 export interface ProjectType {
     id: number;
     title: string;

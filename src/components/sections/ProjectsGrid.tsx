@@ -64,7 +64,7 @@ const ProjectsGrid:  React.FC<ProjectsGridProps> = ({ filter }) => {
       
       {filteredProjects.length === 0 && (
         <div className="text-center py-20">
-          <h3 className="text-2xl text-gray-400">No public projects found in this category right now :( But I'm probably on some!</h3>
+          <h3 className="text-2xl text-gray-400">No public projects found in this category right now :( But I&apos;m probably on some!</h3>
         </div>
       )}
       

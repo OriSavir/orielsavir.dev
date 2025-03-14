@@ -1,6 +1,4 @@
-// src/components/sections/ProjectCard.tsx
 import { useState } from 'react';
-import Image from 'next/image';
 
 interface ProjectCardProps {
   id: number;
@@ -20,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   description,
   image,
   tags,
-  link,
+  link: _link,
   github,
   featured
 }) => {
@@ -35,7 +33,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       onMouseLeave={() => setIsHovered(false)}
     >
     <div className="relative h-48 overflow-hidden flex-shrink-0">
-      <img 
+      <img
         src={image} 
         alt={title}
         className={`w-full h-full object-cover transition-all duration-700 ${isHovered ? 'scale-110' : 'scale-100'}`}
@@ -52,7 +50,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       )}
     </div>
 
-    {/* Make sure this section has a fixed min height */}
     <div className="p-6 flex flex-col flex-grow min-h-[200px]">
       <h3 className="text-xl font-bold mb-2 text-[var(--cyber-blue)]">{title}</h3>
       

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Slider from 'react-slick';
 import ProjectCard from './ProjectCard';
 import projects from '../../data/projects';
@@ -10,7 +10,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const ProjectShowcase = () => {
-  const [isVisible, setIsVisible] = useState(false);
   const [activeSlide, setActiveSlide] = useState(0);
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
   
@@ -19,13 +18,7 @@ const ProjectShowcase = () => {
     []
   );
 
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
-  // Custom arrow components
-  const PrevArrow = (props: any) => {
-    const { onClick } = props;
+  const PrevArrow: React.FC<React.ComponentPropsWithoutRef<"button">> = ({ onClick }) => {
     return (
       <button
         className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-[var(--cyber-darker)] border border-[var(--cyber-blue)] text-[var(--cyber-blue)] hover:bg-[var(--cyber-blue)] hover:text-blue-800 hover:bg-opacity-20 transition-all duration-300 focus:outline-none -translate-x-5"
@@ -38,8 +31,7 @@ const ProjectShowcase = () => {
     );
   };
 
-  const NextArrow = (props: any) => {
-    const { onClick } = props;
+  const NextArrow: React.FC<React.ComponentPropsWithoutRef<"button">> = ({ onClick }) => {
     return (
       <button
         className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-[var(--cyber-darker)] border border-[var(--cyber-blue)] text-[var(--cyber-blue)] hover:bg-[var(--cyber-blue)] hover:text-blue-800 hover:bg-opacity-20 transition-all duration-300 focus:outline-none translate-x-5"
@@ -62,8 +54,8 @@ const ProjectShowcase = () => {
     autoplaySpeed: 3000,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
-    beforeChange: (_: any, next: number) => setActiveSlide(next),
-    appendDots: (dots: any) => (
+    beforeChange: (_: number, next: number) => setActiveSlide(next),
+    appendDots: (dots: React.ReactNode[]) => (
       <div className="flex justify-center gap-6 mt-4" style={{ borderRadius: "10px", padding: "10px"}}>
         {dots}
       </div>

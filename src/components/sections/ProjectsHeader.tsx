@@ -44,7 +44,7 @@ const ProjectsHeader: React.FC<ProjectsHeaderProps> = ({ activeFilter, setActive
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-12">
           Explore my portfolio of projects spanning a variety of categories, technologies, and usages. 
           These projects are a small selection of projects I worked on in my spare time, and I am constantly working on more.
-          I may add a "Current Projects" section to this website in the future to showcase what I'm currently working on, but for now, 
+          I may add a &quot;Current Projects&quot; section to this website in the future to showcase what I&apos;m currently working on, but for now, 
           I am only posting a selection of my work that has open-source code on GitHub.
           Let me know what you think!
         </p>
