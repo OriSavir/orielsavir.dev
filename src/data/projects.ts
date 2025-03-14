@@ -22,7 +22,7 @@ const projects: ProjectType[] = [
     "description": "A Python implementation of a highly optimized Burrows-Wheeler Transform (BWT), which is commonly used in genomics research for efficient text compression and string searching applications.",
     "image": "/images/pybwt.png",
     "tags": ["Python", "Object-Oriented Design", "Compression", "Algorithms"],
-    "category": "algorithm",
+    "category": "other",
     "link": null,
     "github": "https://github.com/OriSavir/PyBWT",
     "featured": false,

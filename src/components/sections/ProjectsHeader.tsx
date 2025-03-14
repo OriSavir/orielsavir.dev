@@ -49,7 +49,6 @@ const ProjectsHeader: React.FC<ProjectsHeaderProps> = ({ activeFilter, setActive
           Let me know what you think!
         </p>
         
-        {/* Filter Tabs */}
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           {filters.map((filter) => (
             <button
@@ -67,7 +66,6 @@ const ProjectsHeader: React.FC<ProjectsHeaderProps> = ({ activeFilter, setActive
         </div>
       </div>
       
-      {/* Decorative elements */}
       <div className="relative h-1 w-full max-w-3xl mx-auto mb-16 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--cyber-blue)] to-transparent animate-pulse"></div>
       </div>
