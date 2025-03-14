@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import Slider from 'react-slick';
 import ProjectCard from './ProjectCard';
 import projects from '../../data/projects';
