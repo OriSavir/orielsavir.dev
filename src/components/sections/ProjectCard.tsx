@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <div className="p-6 flex flex-col flex-grow min-h-[200px]">
       <h3 className="text-xl font-bold mb-2 text-[var(--cyber-blue)]">{title}</h3>
       
-      <p className="text-gray-300 mb-4 flex-grow line-clamp-3 overflow-hidden">
+      <p className="text-gray-300 mb-4 flex-grow line-clamp-4 overflow-hidden">
         {description}
       </p>
       
