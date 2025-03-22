@@ -1,6 +1,6 @@
 'use client';
 
-import GlitchText from '../animations/GlitchText';
+import TypewriterText from '../animations/TypewriterText';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
@@ -24,14 +24,11 @@ const Hero = () => {
         visible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
       }`}>
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
-          <GlitchText 
-            text="ORIEL" 
-            className="text-[var(--cyber-blue)] neon-blue" 
-          />
-          {'  '}
-          <GlitchText 
-            text="SAVIR" 
-            className="text-[var(--cyber-pink)] neon-pink" 
+          <TypewriterText
+            texts={['ORIEL', 'SAVIR']}
+            colors={['text-[var(--cyber-blue)] neon-blue', 'text-[var(--cyber-pink)] neon-pink']}
+            typingSpeed={150}
+            delayBetweenTexts={800}
           />
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-300">
@@ -61,7 +58,6 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Decorative elements */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
         <span className="text-white animate-bounce">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

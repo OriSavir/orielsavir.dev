@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import GlitchText from '../animations/GlitchText';
+import TypewriterText from '../animations/TypewriterText';
 
 interface ProjectsHeaderProps {
   activeFilter: string;
@@ -31,14 +31,11 @@ const ProjectsHeader: React.FC<ProjectsHeaderProps> = ({ activeFilter, setActive
         isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
       }`}>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-          <GlitchText 
-            text="MY" 
-            className="text-[var(--cyber-blue)] neon-blue" 
-          />
-          <span className="mx-2">|</span>
-          <GlitchText 
-            text="PROJECTS" 
-            className="text-[var(--cyber-pink)] neon-pink" 
+          <TypewriterText
+              texts={['MY', 'PROJECTS']}
+              colors={['text-[var(--cyber-blue)] neon-blue', 'text-[var(--cyber-pink)] neon-pink']}
+              typingSpeed={150}
+              delayBetweenTexts={800}
           />
         </h1>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-12">

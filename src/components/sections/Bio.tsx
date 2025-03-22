@@ -29,11 +29,11 @@ const Bio = () => {
         <h2 className="text-3xl font-bold mb-6 text-[var(--cyber-pink)] neon-pink">About Me</h2>
         
         <p className="text-gray-300 mb-4">
-            Hello! My name is Oriel Savir, and this is my website. I'm a student at Johns Hopkins University studying CS & Applied Maths (Financial Mathematics).
-            I'm a curious mind with a passion for technology, math, and innovation.
-            Throughout my time in college, I've gained experience in software development, deep learning research, and open source tech.
+            Hello! My name is Oriel Savir, and this is my website. I&apos;m a student at Johns Hopkins University studying CS & Applied Maths (Financial Mathematics).
+            I&apos;m a curious mind with a passion for technology, math, and innovation.
+            Throughout my time in college, I&apos;ve gained experience in software development, deep learning research, and open source tech.
             In addition, I love using my math skills to solve complex problems, especially in deep learning, data science, computational biology, and quantitative finance!
-            Whether it's engineering complex software or pushing the boundaries of deep learning, I'm always eager to learn more and collaborate on exciting projects with passionate, talented people.
+            Whether it&apos;s engineering complex software or pushing the boundaries of deep learning, I&apos;m always eager to learn more and collaborate on exciting projects with passionate, talented people.
             Feel free to reach out, would love to chat!
         </p>
 
