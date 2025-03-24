@@ -39,7 +39,7 @@ const AnimatedBackground: React.FC = () => {
     }
 
     const animate = () => {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';  // apparently adjusting the alpha value makes trails stronger, pretty cool you can do that
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';  // apparently adjusting the alpha value makes trails stronger, pretty cool you can do that
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       particles.forEach(particle => {
