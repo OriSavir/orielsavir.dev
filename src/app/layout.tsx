@@ -1,6 +1,8 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import AnimatedBackground from '@/components/layout/AnimatedBackground';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -30,12 +32,11 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <AnimatedBackground />
-        {/* Navbar and regular content commented out
         <Navbar />
         <main>{children}</main>
         <Footer />
-        */}
-        
+
+        {/*
         <div className="fixed inset-0 flex items-center justify-center z-50">
           <div className="bg-black/80 backdrop-blur-md p-8 rounded-lg border border-cyan-500/30 shadow-lg shadow-cyan-500/20 max-w-md text-center">
             <h1 className="text-3xl font-orbitron text-cyan-400 mb-4">Under Maintenance</h1>
@@ -45,6 +46,8 @@ export default function RootLayout({
             <p className="mt-4 text-lg font-rajdhani text-cyan-300">Thank you for your patience!</p>
           </div>
         </div>
+        */}
+        
       </body>
     </html>
   );
