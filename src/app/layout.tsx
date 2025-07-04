@@ -42,7 +42,7 @@ export default function RootLayout({
           <div className="bg-black/80 backdrop-blur-md p-8 rounded-lg border border-cyan-500/30 shadow-lg shadow-cyan-500/20 max-w-md text-center">
             <h1 className="text-3xl font-orbitron text-cyan-400 mb-4">Under Maintenance</h1>
             <p className="text-lg font-rajdhani text-gray-200">
-              I am adding more exciting things. The website will be back online within a week.
+              The website is currently undergoing maintenance. I will add more content near the end of summer regarding my latest activities & publications.
             </p>
             <p className="mt-4 text-lg font-rajdhani text-cyan-300">Thank you for your patience!</p>
           </div>
