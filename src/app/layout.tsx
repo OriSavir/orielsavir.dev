@@ -7,8 +7,8 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: 'Oriel Savir',
-  description: 'My (Oriel) personal website!',
+  title: 'About — Oriel Savir',
+  description: 'My (Oriel) personal website',
 };
 
 export default function RootLayout({

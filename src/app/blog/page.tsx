@@ -3,7 +3,7 @@ import { getAllPosts } from '@/lib/blog';
 
 export const metadata = {
   title: 'Blog — Oriel Savir',
-  description: 'Thoughts on research, engineering, and other things.',
+  description: 'Random thoughts, updates on projects, and more from me.',
 };
 
 export default function BlogPage() {
@@ -15,9 +15,9 @@ export default function BlogPage() {
         <Link href="/" className="text-xs text-[var(--text-muted)] hover:text-[var(--accent)]">
           &larr; home
         </Link>
+        <br/>
         <h1 className="text-2xl font-bold text-[var(--text)]">Blog</h1>
       </header>
-
       {posts.length === 0 ? (
         <p className="text-sm text-[var(--text-muted)]">Blogging soon!</p>
       ) : (

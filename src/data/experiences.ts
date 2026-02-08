@@ -12,7 +12,7 @@ const experiences: ExperienceType[] = [
     id: 1,
     title: "ML Kernels Engineer",
     company: "Annapurna Labs (AWS)",
-    period: "Summer 2026",
+    period: "Starting Summer 2026",
     description: "Will work on SOTA ML kernels for large-scale LLM training and inference on next-generation accelerators.",
     skills: []
   },

@@ -179,9 +179,10 @@ export default function Home() {
 
       <footer className="border-t border-[var(--border)] pt-8 text-sm text-[var(--text-muted)]">
         <div className="flex flex-wrap gap-4">
-          <a href="mailto:orisav9@gmail.com">email</a>
+          <a href="mailto:orisavir@gmail.com">email</a>
           <a href="https://github.com/OriSavir" target="_blank" rel="noopener noreferrer">github</a>
           <a href="https://linkedin.com/in/orielsavir" target="_blank" rel="noopener noreferrer">linkedin</a>
+          <a href="https://x.com/orielsavvy" target="_blank" rel="noopener noreferrer">x</a>
         </div>
       </footer>
     </div>
