@@ -37,8 +37,7 @@ export default function Home() {
         <h2 className="text-lg font-bold text-[var(--text)]">About</h2>
         <p className="text-sm text-[var(--text-muted)] leading-relaxed">
           Hello! My name is Oriel Savir. I&apos;m a graduate from Johns Hopkins University, where I studied
-          Applied Mathematics &amp; Computer Science. I am passionate about
-          math, technology, and innovation. Throughout my time in college, I gained experience
+          Applied Mathematics &amp; Computer Science. Throughout my time in college, I gained experience
           in deep learning research, software development, and open source tech. As a researcher, I am, broadly
           speaking, motivated by problems that sit in the gap between theory and empirical experimentation
           for generalizability &amp; robustness, representation learning, probabilistic modeling, reinforcement learning, and alignment &amp; interpretability for safety. I&apos;m also interested in math research
