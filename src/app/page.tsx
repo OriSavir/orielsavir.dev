@@ -144,7 +144,9 @@ export default function Home() {
             <li>- The best way to learn is by doing. </li>
             <li>- Pineapple can work on pizza, but there is a time and place for everything. NY pizza is the best slice. </li>
             <li>- The Artificial Intelligence boom and its impact will be the defining force of most of the 21st century. </li>
-            <li>- Modern LLMs and training methods are very impressive, but future AI progress will require methods beyond naive scaling alone.
+            <li>- Modern LLMs and training methods are very impressive, but future AI progress will require addressing the task of 
+              long-horizon planning and action without dense feedback. The current failure mode is more structural than parameteric, and
+              cannot be addressed by scaling alone.
               Latent dynamics modeling, representation learning, and program synthesis will be expanded upon for better structured world models. 
               Reinforcement learning will make a strong comeback when learned dynamics support long-horizon planning and world understanding. </li>
             <li>- Interpretability and alignment are crucial for the long-term success of AI for the benefit of humanity. </li>
