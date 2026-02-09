@@ -1,5 +1,6 @@
 import './globals.css';
 import { JetBrains_Mono } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 
 const mono = JetBrains_Mono({
   subsets: ['latin'],
@@ -22,6 +23,7 @@ export default function RootLayout({
         <main className="max-w-2xl mx-auto px-6 py-16">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );

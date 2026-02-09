@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "framer-motion": "^12.4.10",
     "gray-matter": "^4.0.3",
     "next": "^16.1.6",
-    "nodemailer": "^6.10.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-icons": "^5.5.0",
@@ -26,7 +26,6 @@
     "@eslint/eslintrc": "^3.3.3",
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.2.2",
-    "@types/nodemailer": "^6.4.17",
     "@types/react": "^19.2.13",
     "@types/react-dom": "^19.2.3",
     "@types/react-slick": "^0.23.13",
@@ -34,5 +33,6 @@
     "eslint-config-next": "^16.1.6",
     "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3"
-  }
+  },
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
