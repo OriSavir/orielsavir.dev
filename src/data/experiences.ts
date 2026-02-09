@@ -21,7 +21,7 @@ const experiences: ExperienceType[] = [
     title: "Deep Learning Researcher",
     company: "Mathematical Institute for Data Science (MINDS)",
     period: "Mar 2024 – Present",
-    description: "First-Author on `Learning Affine-Equivariant Proximal Operators`, accepted at ICASSP 2026, a novel framework for learning guaranteed proximals with equivariance preservation. Significantly increased robustness of inverse problems for imaging.",
+    description: "First-Author on `Learning Affine-Equivariant Proximal Operators`, accepted at ICASSP 2026; invented a novel construct for learning guaranteed proximals with equivariance preservation. Significantly increased noise-level robustness of proximal learning for inverse problems in imaging.",
     skills: ["Python", "PyTorch", "Mathematics", "CNNs", "Deep Learning", "Optimization", "Neural Networks"]
   },
   {
