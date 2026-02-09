@@ -26,8 +26,8 @@ export default function Home() {
         <nav className="flex gap-4 text-sm">
           <a href="#about">about</a>
           <Link href="/blog">blogposts</Link>
-          <a href="#experience">experience</a>
           <a href="#publications">publications</a>
+          <a href="#experience">experience</a>
           <a href="#tidbits">extra (+dog photos)</a>
         </nav>
       </header>
@@ -51,7 +51,7 @@ export default function Home() {
         <div>
           <h3 className="font-bold text-[var(--text)] mb-2">Interests</h3>
           <p className="text-sm text-[var(--text-muted)] leading-relaxed">
-            Deep Learning, Generalizability, Representation Learning, Alignment &amp; Interpretability, ML Systems (Kernels are fun!)
+            Deep Learning, ML Systems/Performance, Representation Learning, Generalizability &amp; Robustness, Alignment &amp; Interpretability, Safe AI
           </p>
         </div>
       </section>
@@ -126,10 +126,11 @@ export default function Home() {
               </li>
               <li>- I also love EDM (especially DnB) and have been learning to use Ableton for a couple months. </li>
               <li>- I have lived in three continents: North America, Asia, and Europe. A goal is to spend at least some time in all seven (including Antarctica)! </li>
-              <li>- I occasionally play video games. My all-time favorites are The Witcher, Portal, Soulsborne, and the Ratchet &amp; Clank series. </li>
-              <li>- I enjoy reading, particularly dystopian fiction, sci-fi, detective, and non-fiction on philosophy, physics, and mathematics. </li>
-              <li>- I love to cook new receipes and am generally willing to try most foods at least once (with few exceptions haha)! </li>
-            </ul>            
+              <li>- I occasionally play video games. My all-time favorites are The Witcher, Portal, Soulsborne, and The Last of Us. </li>
+              <li>- I have been consistent about going to the gym for the past few months for strength training. I find it's not only healthy, but helps a lot with building dedication; highly recommended. </li>
+              <li>- I enjoy reading, particularly dystopian fiction, sci-fi, detective, and non-fiction on philosophy, physics, and math. </li>
+              <li>- I love to cook new receipes and am generally willing to try most foods at least once (with few exceptions)! </li>
+            </ul>           
         </div>
         <div>
           <h3 className="font-bold text-[var(--text)] mb-2">Things I believe (a constantly evolving list):</h3>
@@ -141,7 +142,7 @@ export default function Home() {
               Learning math develops priceless cognitive and logical problem-solving skills. Thus, learning more math is a good idea for anyone.
             </li>
             <li>- The best way to learn is by doing. </li>
-            <li>- Pineapple can work on pizza, but there is a time and place for everything. </li>
+            <li>- Pineapple can work on pizza, but there is a time and place for everything. NY pizza is the best slice. </li>
             <li>- The Artificial Intelligence boom and its impact will be the defining force of most of the 21st century. </li>
             <li>- Modern LLMs and training methods are very impressive, but future AI progress will require methods beyond naive scaling alone.
               Latent dynamics modeling, representation learning, and program synthesis will be expanded upon for better structured world models. 

@@ -61,7 +61,7 @@ const experiences: ExperienceType[] = [
     title: "Software Engineering Intern",
     company: "XTractor",
     period: "Jun 2023 – Dec 2023",
-    description: "Led web development of a tool for tabular data extraction used by researchers at top universities. Worked with a team of talented upper-level and graduate students to do a challenging task before it was easy.",
+    description: "Led web development of a tool for tabular data extraction out of messy, old documents used by researchers at top universities. Worked with a team of talented upper-level and graduate students to do a challenging task before it was easy.",
     skills: ["TypeScript", "Next.js", "AWS S3", "AWS SageMaker", "PyTorch", "Tailwind CSS"]
   },
   {
