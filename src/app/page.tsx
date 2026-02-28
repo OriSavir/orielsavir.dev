@@ -183,7 +183,7 @@ export default function Home() {
         <div className="flex flex-wrap gap-4">
           <a href="mailto:orisavir@gmail.com">email</a>
           <a href="https://github.com/OriSavir" target="_blank" rel="noopener noreferrer">github</a>
-          <a href="https://linkedin.com/in/orielsavir" target="_blank" rel="noopener noreferrer">linkedin</a>
+          <a href="https://www.linkedin.com/in/oriel-savir/" target="_blank" rel="noopener noreferrer">linkedin</a>
           <a href="https://x.com/orielsavvy" target="_blank" rel="noopener noreferrer">x</a>
         </div>
       </footer>
